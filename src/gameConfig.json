@@ -1,0 +1,240 @@
+{
+  "screenSize": {
+    "width": {
+      "value": 1152,
+      "type": "number",
+      "description": "Screen width"
+    },
+    "height": {
+      "value": 768,
+      "type": "number",
+      "description": "Screen height"
+    }
+  },
+  "debugConfig": {
+    "debug": {
+      "value": false,
+      "type": "boolean",
+      "description": "Enable debug mode"
+    },
+    "debugShowBody": {
+      "value": false,
+      "type": "boolean",
+      "description": "Show collision bodies"
+    },
+    "debugShowStaticBody": {
+      "value": false,
+      "type": "boolean",
+      "description": "Show static collision bodies"
+    },
+    "debugShowVelocity": {
+      "value": false,
+      "type": "boolean",
+      "description": "Show velocity vectors"
+    }
+  },
+  "renderConfig": {
+    "pixelArt": {
+      "value": true,
+      "type": "boolean",
+      "description": "Enable pixel art rendering"
+    }
+  },
+  "playerConfig": {
+    "walkSpeed": {
+      "value": 260,
+      "type": "number",
+      "description": "Player walk speed"
+    },
+    "jumpPower": {
+      "value": 800,
+      "type": "number",
+      "description": "Player jump power"
+    },
+    "gravityY": {
+      "value": 1200,
+      "type": "number",
+      "description": "Player gravity acceleration"
+    },
+    "maxHealth": {
+      "value": 100,
+      "type": "number",
+      "description": "Player maximum health"
+    },
+    "hurtingDuration": {
+      "value": 100,
+      "type": "number",
+      "description": "Hurt stun duration (milliseconds)"
+    },
+    "invulnerableTime": {
+      "value": 2000,
+      "type": "number",
+      "description": "Invulnerability time (milliseconds)"
+    },
+    "attackDamage": {
+      "value": 40,
+      "type": "number",
+      "description": "Player attack damage"
+    }
+  },
+  "enemyConfig": {
+    "walkSpeed": {
+      "value": 100,
+      "type": "number",
+      "description": "Enemy walk speed"
+    },
+    "gravityY": {
+      "value": 1200,
+      "type": "number",
+      "description": "Enemy gravity acceleration"
+    },
+    "maxHealth": {
+      "value": 60,
+      "type": "number",
+      "description": "Enemy maximum health"
+    },
+    "attackDamage": {
+      "value": 20,
+      "type": "number",
+      "description": "Enemy attack damage"
+    },
+    "attackCooldown": {
+      "value": 4000,
+      "type": "number",
+      "description": "Enemy attack cooldown (milliseconds)"
+    },
+    "patrolDistance": {
+      "value": 200,
+      "type": "number",
+      "description": "Enemy patrol distance"
+    },
+    "detectionRange": {
+      "value": 400,
+      "type": "number",
+      "description": "Enemy detection range"
+    }
+  },
+  "mapConfig": {
+    "tileSize": {
+      "value": 64,
+      "type": "number",
+      "description": "Tile size"
+    }
+  },
+  "keyConfig": {
+    "up": {
+      "value": "UP",
+      "type": "string",
+      "description": "Up movement key"
+    },
+    "down": {
+      "value": "DOWN",
+      "type": "string",
+      "description": "Down movement key"
+    },
+    "left": {
+      "value": "LEFT",
+      "type": "string",
+      "description": "Left movement key"
+    },
+    "right": {
+      "value": "RIGHT",
+      "type": "string",
+      "description": "Right movement key"
+    },
+    "wasdUp": {
+      "value": "W",
+      "type": "string",
+      "description": "WASD up movement key"
+    },
+    "wasdDown": {
+      "value": "S",
+      "type": "string",
+      "description": "WASD down movement key"
+    },
+    "wasdLeft": {
+      "value": "A",
+      "type": "string",
+      "description": "WASD left movement key"
+    },
+    "wasdRight": {
+      "value": "D",
+      "type": "string",
+      "description": "WASD right movement key"
+    },
+    "shoot": {
+      "value": "J",
+      "type": "string",
+      "description": "Shoot key"
+    },
+    "melee": {
+      "value": "K",
+      "type": "string",
+      "description": "Melee attack key"
+    },
+    "interact": {
+      "value": "K",
+      "type": "string",
+      "description": "Interact key"
+    }
+  },
+  "bossConfig": {
+    "walkSpeed": {
+      "value": 80,
+      "type": "number",
+      "description": "Boss walk speed"
+    },
+    "maxHealth": {
+      "value": 200,
+      "type": "number",
+      "description": "Boss maximum health"
+    },
+    "detectionRange": {
+      "value": 400,
+      "type": "number",
+      "description": "Boss detection range"
+    },
+    "attackRange": {
+      "value": 120,
+      "type": 120,
+      "description": "Boss attack range"
+    },
+    "attackCooldown": {
+      "value": 2000,
+      "type": "number",
+      "description": "Boss attack cooldown (milliseconds)"
+    },
+    "shootCooldown": {
+      "value": 2000,
+      "type": "number",
+      "description": "Boss shoot cooldown (milliseconds)"
+    },
+    "shootRange": {
+      "value": 600,
+      "type": "number",
+      "description": "Boss shoot range"
+    },
+    "attackDamage": {
+      "value": 40,
+      "type": "number",
+      "description": "Boss attack damage"
+    },
+    "hurtingDuration": {
+      "value": 100,
+      "type": "number",
+      "description": "Boss hurt stun duration (milliseconds)"
+    },
+    "invulnerableTime": {
+      "value": 1000,
+      "type": "number",
+      "description": "Boss invulnerability time (milliseconds)"
+    }
+  },
+  "gameSettings": {
+    "selectedCharacter": {
+      "value": "elite_soldier",
+      "type": "string",
+      "description": "Selected character type"
+    }
+  }
+}
