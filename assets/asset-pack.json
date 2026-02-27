@@ -1,0 +1,696 @@
+{
+  "fonts": {
+    "files": [
+      {
+        "url": "https://retro-pixel-font.takwolf.com/arcade/retro-pixel-arcade.otf.woff2?r=0.8454860941416305",
+        "type": "font",
+        "key": "RetroPixel",
+        "fontType": "opentype"
+      }
+    ]
+  },
+  "tilemaps": {
+    "files": [
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1_map",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tile_maps/level1_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "jungle_level_map",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tile_maps/jungle_level_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "flat_jungle_level_map",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tile_maps/flat_jungle_level_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "enhanced_jungle_level_map",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tile_maps/enhanced_jungle_level_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "simple_jungle_level_map",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tile_maps/simple_jungle_level_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "desert_level_map",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tile_maps/desert_level_map.json"
+      }
+    ]
+  },
+  "tilesets": {
+    "files": [
+      {
+        "type": "image",
+        "key": "concrete_debris_tileset",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tilesets/concrete_debris_tileset.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_ground_tileset",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tilesets/jungle_ground_tileset.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_sand_tileset",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/tilesets/desert_sand_tileset.png"
+      }
+    ]
+  },
+  "backgrounds": {
+    "files": [
+      {
+        "type": "image",
+        "key": "urban_battlefield_bg",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/urban_battlefield_bg.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_battlefield_bg",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_battlefield_bg.png"
+      }
+    ]
+  },
+  "ui_images": {
+    "files": [
+      {
+        "type": "image",
+        "key": "game_title",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/game_title.png"
+      }
+    ]
+  },
+  "player_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "elite_soldier_idle_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_idle/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_idle_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_idle/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_walk_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_walk/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_walk_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_walk/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_walk_frame3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_walk/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_walk_frame4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_walk/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_jump_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_jump/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_jump_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_jump/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_attack_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_attack/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_attack_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_attack/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_die_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_die/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_die_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_die/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_crouch_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_crouch_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "elite_soldier_crouch_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/elite_soldier_crouch_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_idle_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_idle_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_walk_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_walk_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_walk_frame3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_walk_R/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_walk_frame4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_jump_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_jump_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_jump_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_jump_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_attack_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_attack_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_attack_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_attack_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_die_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_die_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_die_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_crouch_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_crouch_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "female_commando_crouch_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/female_commando_crouch_R/frame_2.png"
+      }
+    ]
+  },
+  "enemy_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "masked_militant_idle_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_idle/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_idle_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_idle/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_walk_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_walk/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_walk_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_walk/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_walk_frame3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_walk/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_walk_frame4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_walk/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_attack_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_attack/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_attack_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_attack/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_die_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_die/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "masked_militant_die_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/masked_militant_die/frame_2.png"
+      }
+    ]
+  },
+  "boss_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_idle_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_idle_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_walk_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_walk_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_walk_frame3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_walk_R/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_walk_frame4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_attack_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_attack_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_attack_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_attack_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_die_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "japanese_samurai_boss_die_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/japanese_samurai_boss_die_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_idle_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_idle_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_idle_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_idle_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_walk_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_walk_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_walk_frame3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_walk_R/frame_3.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_walk_frame4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_attack_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_attack_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_attack_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_attack_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_die_frame1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_die_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_warlord_boss_die_frame2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/animations/desert_warlord_boss_die_R/frame_2.png"
+      }
+    ]
+  },
+  "decorations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "military_crates_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_crates/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "military_crates_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_crates/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "military_crates_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_crates/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "explosive_barrels_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/explosive_barrels/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "explosive_barrels_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/explosive_barrels/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "explosive_barrels_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/explosive_barrels/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "military_barriers_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_barriers/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "military_barriers_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_barriers/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_plants_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_plants/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_plants_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_plants/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_plants_variant_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_plants/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_plants_variant_4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_plants/variant_4.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_plants_variant_5",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_plants/variant_5.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_rocks_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_rocks/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_rocks_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_rocks/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_rocks_variant_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_rocks/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "jungle_rocks_variant_4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/jungle_rocks/variant_4.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_cactus_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_cactus/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_cactus_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_cactus/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_cactus_variant_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_cactus/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_cactus_variant_4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_cactus/variant_4.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_cactus_variant_5",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_cactus/variant_5.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_rocks_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_rocks/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_rocks_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_rocks/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_rocks_variant_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_rocks/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_rocks_variant_4",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_rocks/variant_4.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_oasis_plants_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_oasis_plants/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_oasis_plants_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_oasis_plants/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_structures_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_structures/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_structures_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_structures/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_structures_variant_3",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_structures/variant_3.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_artifacts_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_artifacts/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "desert_artifacts_variant_2",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/desert_artifacts/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "military_platform_small_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_platform_small/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "military_platform_medium_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/military_platform_medium/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "concrete_barrier_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/concrete_barrier/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "metal_pillar_variant_1",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/metal_pillar/variant_1.png"
+      }
+    ]
+  },
+  "items": {
+    "files": [
+      {
+        "type": "image",
+        "key": "medical_kit",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/images/medical_kit.png"
+      }
+    ]
+  },
+  "sound_effects": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "ui_select",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/ui_select.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "game_over",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/game_over.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "rifle_shot",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/rifle_shot.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ak47_shot",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/ak47_shot.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "explosion",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/explosion.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "grenade_throw",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/grenade_throw.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "footsteps_concrete",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/footsteps_concrete.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "enemy_death",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/enemy_death.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "medical_pickup",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/medical_pickup.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "enemy_rifle_shot",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/enemy_rifle_shot.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "samurai_battle_cry",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/samurai_battle_cry.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "samurai_sword_slash",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/samurai_sword_slash.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "boss_death",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/boss_death.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "desert_wind",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/desert_wind.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "heavy_machine_gun",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/heavy_machine_gun.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "warlord_battle_cry",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/warlord_battle_cry.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "footsteps_sand",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/sound_effects/footsteps_sand.mp3"
+      }
+    ]
+  },
+  "background_musics": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "battle_theme",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/music/battle_theme.wav"
+      },
+      {
+        "type": "audio",
+        "key": "desert_battle_theme",
+        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/632/music/desert_battle_theme.wav"
+      }
+    ]
+  },
+  "meta": {
+    "app": "Gambo AI",
+    "version": 1,
+    "showAllFilesInBlocks": false
+  }
+}
